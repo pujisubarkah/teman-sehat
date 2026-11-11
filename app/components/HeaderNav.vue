@@ -84,7 +84,6 @@ const tabs = [
   { id: 'analytics', label: 'Grafik & Tren', icon: LineChart },
   { id: 'food', label: 'Jurnal Makanan', icon: UtensilsCrossed },
   { id: 'activity', label: 'Aktivitas', icon: Activity },
-  { id: 'assistant', label: 'AI Nutrisi', icon: Sparkles },
-  { id: 'shop', label: 'Perlengkapan', icon: ShoppingBag, badge: 'Shopee' }
+  { id: 'assistant', label: 'AI Nutrisi', icon: Sparkles }
 ]
 </script>
