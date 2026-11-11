@@ -1,0 +1,19 @@
+{
+  "name": "TemanSehat — Pendamping 4 Pilar Sehat",
+  "short_name": "TemanSehat",
+  "description": "Pantau Tensi, Gula Darah, Asam Urat, Kolesterol & Kebiasaan Sehat Harian.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f8fafc",
+  "theme_color": "#0284c7",
+  "lang": "id",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

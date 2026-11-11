@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="50%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#4f46e5" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#0f172a" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background rounded rect -->
+  <rect width="512" height="512" rx="128" fill="url(#grad)" />
+
+  <!-- Inner Soft Aura -->
+  <circle cx="256" cy="256" r="180" fill="#ffffff" fill-opacity="0.08" />
+
+  <!-- Heart Pulse / Health Icon -->
+  <g filter="url(#shadow)" fill="none" stroke="#ffffff" stroke-width="32" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Heart outline -->
+    <path d="M256 416 C256 416 100 310 100 200 C100 135 150 90 215 90 C245 90 270 105 285 125 C300 105 325 90 355 90 C420 90 470 135 470 200 C470 310 314 416 314 416" />
+    <!-- Pulse Line through center -->
+    <path d="M120 240 L195 240 L225 180 L265 310 L305 210 L335 240 L440 240" stroke-width="28" stroke="#38bdf8" />
+  </g>
+</svg>
