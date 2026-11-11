@@ -174,8 +174,8 @@ const chartOptions: ChartOptions<'line'> = {
     },
     tooltip: {
       backgroundColor: '#0f172a',
-      titleFont: { size: 12, family: 'Poppins', weight: 'bold' },
-      bodyFont: { size: 12, family: 'Poppins' },
+      titleFont: { size: 12, family: 'Inter', weight: 'bold' },
+      bodyFont: { size: 12, family: 'Inter' },
       padding: 10,
       cornerRadius: 12,
       displayColors: false,
@@ -200,7 +200,7 @@ const chartOptions: ChartOptions<'line'> = {
       },
       ticks: {
         stepSize: 30,
-        font: { size: 10, family: 'Poppins' },
+        font: { size: 10, family: 'Inter' },
         callback: (value) => `${value}`
       }
     },
@@ -211,7 +211,7 @@ const chartOptions: ChartOptions<'line'> = {
       ticks: {
         maxRotation: 45,
         minRotation: 20,
-        font: { size: 10, family: 'Poppins' }
+        font: { size: 10, family: 'Inter' }
       }
     }
   }
