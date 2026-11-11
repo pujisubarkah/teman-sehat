@@ -1,7 +1,7 @@
 import type { FoodItem } from '../types'
 
 export const indonesianFoodDatabase: FoodItem[] = [
-  // Makanan Pokok
+  // ==================== Makanan Pokok ====================
   {
     id: 'f1',
     name: 'Nasi Putih',
@@ -19,12 +19,60 @@ export const indonesianFoodDatabase: FoodItem[] = [
   },
   {
     id: 'f2',
+    name: 'Nasi Soto Ayam (Kuah Bening + Nasi)',
+    portionName: '1 mangkok campur (350g)',
+    portionMultiplier: 1,
+    baseServing: '350g',
+    calories: 340,
+    carbs: 42.0,
+    protein: 22.0,
+    fat: 8.5,
+    fiber: 2.2,
+    glycemicIndex: 'Sedang',
+    purineLevel: 'Sedang',
+    category: 'Makanan Pokok',
+    healthNotice: 'Nasi + suwiran ayam, kubis, soun & kaldu bening gurih'
+  },
+  {
+    id: 'f3',
+    name: 'Nasi Soto Daging Sapi',
+    portionName: '1 mangkok campur (350g)',
+    portionMultiplier: 1,
+    baseServing: '350g',
+    calories: 415,
+    carbs: 43.0,
+    protein: 25.0,
+    fat: 15.0,
+    fiber: 1.8,
+    glycemicIndex: 'Sedang',
+    purineLevel: 'Tinggi',
+    category: 'Makanan Pokok',
+    healthNotice: '⚠️ Cukup tinggi Purin (Asam Urat) dari kaldu daging merah'
+  },
+  {
+    id: 'f4',
+    name: 'Soto Lamongan (Nasi + Ayam + Koya)',
+    portionName: '1 mangkok campur (350g)',
+    portionMultiplier: 1,
+    baseServing: '350g',
+    calories: 385,
+    carbs: 45.0,
+    protein: 24.0,
+    fat: 11.5,
+    fiber: 2.0,
+    glycemicIndex: 'Sedang',
+    purineLevel: 'Sedang',
+    category: 'Makanan Pokok',
+    healthNotice: 'Bubuk koya menambah kalori & natrium gurih'
+  },
+  {
+    id: 'f5',
     name: 'Nasi Merah',
     portionName: '1 centong sedang (100g)',
     portionMultiplier: 1,
     baseServing: '100g',
     calories: 111,
-    carbs: 23,
+    carbs: 23.0,
     protein: 2.6,
     fat: 0.9,
     fiber: 1.8,
@@ -33,13 +81,13 @@ export const indonesianFoodDatabase: FoodItem[] = [
     category: 'Makanan Pokok'
   },
   {
-    id: 'f3',
+    id: 'f6',
     name: 'Nasi Uduk',
     portionName: '1 porsi sedang (150g)',
     portionMultiplier: 1,
     baseServing: '150g',
     calories: 260,
-    carbs: 42,
+    carbs: 42.0,
     protein: 5.2,
     fat: 7.8,
     fiber: 0.6,
@@ -49,13 +97,61 @@ export const indonesianFoodDatabase: FoodItem[] = [
     healthNotice: 'Santan gurih (pantau kolesterol)'
   },
   {
-    id: 'f4',
+    id: 'f7',
+    name: 'Nasi Goreng Spesial',
+    portionName: '1 piring sedang (200g)',
+    portionMultiplier: 1,
+    baseServing: '200g',
+    calories: 360,
+    carbs: 52.0,
+    protein: 10.0,
+    fat: 12.0,
+    fiber: 1.8,
+    glycemicIndex: 'Tinggi',
+    purineLevel: 'Rendah',
+    category: 'Makanan Pokok',
+    healthNotice: 'Tinggi karbohidrat & minyak (pantau gula darah)'
+  },
+  {
+    id: 'f8',
+    name: 'Bubur Ayam Lengkap',
+    portionName: '1 mangkok sedang (300g)',
+    portionMultiplier: 1,
+    baseServing: '300g',
+    calories: 370,
+    carbs: 56.0,
+    protein: 13.0,
+    fat: 10.0,
+    fiber: 2.1,
+    glycemicIndex: 'Tinggi',
+    purineLevel: 'Sedang',
+    category: 'Makanan Pokok',
+    healthNotice: 'GI tinggi cepat memicu lonjakan gula darah pagi'
+  },
+  {
+    id: 'f9',
+    name: 'Bakso Sapi Komplit (Mie + Kuah)',
+    portionName: '1 mangkok (5 butir bakso + mie)',
+    portionMultiplier: 1,
+    baseServing: '1 mangkok',
+    calories: 390,
+    carbs: 38.0,
+    protein: 22.0,
+    fat: 16.0,
+    fiber: 2.5,
+    glycemicIndex: 'Sedang',
+    purineLevel: 'Sedang',
+    category: 'Makanan Pokok',
+    healthNotice: 'Tinggi natrium/garam kuah kaldu (pantau tensi darah)'
+  },
+  {
+    id: 'f10',
     name: 'Lontong / Ketupat',
     portionName: '1 buah sedang (100g)',
     portionMultiplier: 1,
     baseServing: '100g',
     calories: 144,
-    carbs: 32,
+    carbs: 32.0,
     protein: 2.5,
     fat: 0.4,
     fiber: 0.5,
@@ -64,7 +160,7 @@ export const indonesianFoodDatabase: FoodItem[] = [
     category: 'Makanan Pokok'
   },
   {
-    id: 'f5',
+    id: 'f11',
     name: 'Singkong Rebus',
     portionName: '1 potong sedang (100g)',
     portionMultiplier: 1,
@@ -79,7 +175,7 @@ export const indonesianFoodDatabase: FoodItem[] = [
     category: 'Makanan Pokok'
   },
   {
-    id: 'f6',
+    id: 'f12',
     name: 'Ubi Jalar Rebus',
     portionName: '1 buah sedang (100g)',
     portionMultiplier: 1,
@@ -94,7 +190,7 @@ export const indonesianFoodDatabase: FoodItem[] = [
     category: 'Makanan Pokok'
   },
   {
-    id: 'f7',
+    id: 'f13',
     name: 'Oatmeal (Matang)',
     portionName: '1 mangkok kecil (150g)',
     portionMultiplier: 1,
@@ -109,25 +205,89 @@ export const indonesianFoodDatabase: FoodItem[] = [
     category: 'Makanan Pokok'
   },
   {
-    id: 'f8',
+    id: 'f14',
     name: 'Mie Goreng Instan',
     portionName: '1 bungkus (85g)',
     portionMultiplier: 1,
     baseServing: '1 bungkus',
     calories: 380,
-    carbs: 54,
-    protein: 8,
-    fat: 17,
-    fiber: 2,
+    carbs: 54.0,
+    protein: 8.0,
+    fat: 17.0,
+    fiber: 2.0,
     glycemicIndex: 'Tinggi',
     purineLevel: 'Rendah',
     category: 'Makanan Pokok',
-    healthNotice: 'Tinggi natrium & karbo olahan'
+    healthNotice: 'Tinggi natrium & karbo olahan (pantau tensi & gula darah)'
   },
 
-  // Lauk Pauk (Protein & Lemak)
+  // ==================== Lauk Pauk (Protein & Lemak) ====================
   {
-    id: 'f9',
+    id: 'f15',
+    name: 'Soto Ayam Kuah Bening (Tanpa Nasi)',
+    portionName: '1 mangkok (250g)',
+    portionMultiplier: 1,
+    baseServing: '250g',
+    calories: 165,
+    carbs: 9.0,
+    protein: 18.0,
+    fat: 6.0,
+    fiber: 1.5,
+    glycemicIndex: 'Rendah',
+    purineLevel: 'Sedang',
+    category: 'Lauk Pauk',
+    healthNotice: 'Pilihan kuah sehat rendah kalori & tinggi protein'
+  },
+  {
+    id: 'f16',
+    name: 'Soto Betawi Daging (Kuah Santan/Susu)',
+    portionName: '1 mangkok porsi sedang (250g)',
+    portionMultiplier: 1,
+    baseServing: '250g',
+    calories: 385,
+    carbs: 12.0,
+    protein: 24.0,
+    fat: 26.0,
+    fiber: 1.2,
+    glycemicIndex: 'Rendah',
+    purineLevel: 'Sedang',
+    category: 'Lauk Pauk',
+    healthNotice: '⚠️ Tinggi lemak jenuh santan (pantau kolesterol) & emping'
+  },
+  {
+    id: 'f17',
+    name: 'Rawon Daging Sapi',
+    portionName: '1 mangkok porsi sedang (250g)',
+    portionMultiplier: 1,
+    baseServing: '250g',
+    calories: 240,
+    carbs: 7.0,
+    protein: 24.0,
+    fat: 12.0,
+    fiber: 1.5,
+    glycemicIndex: 'Rendah',
+    purineLevel: 'Sedang',
+    category: 'Lauk Pauk',
+    healthNotice: 'Keluak kaya antioksidan; padukan tauge pendek'
+  },
+  {
+    id: 'f18',
+    name: 'Sop Buntut Sapi',
+    portionName: '1 mangkok (300g)',
+    portionMultiplier: 1,
+    baseServing: '300g',
+    calories: 320,
+    carbs: 8.0,
+    protein: 26.0,
+    fat: 20.0,
+    fiber: 1.5,
+    glycemicIndex: 'Rendah',
+    purineLevel: 'Sedang',
+    category: 'Lauk Pauk',
+    healthNotice: 'Kaldu lezat; perhatikan lapisan lemak kuah untuk kolesterol'
+  },
+  {
+    id: 'f19',
     name: 'Telur Rebus',
     portionName: '1 butir (55g)',
     portionMultiplier: 1,
@@ -142,7 +302,7 @@ export const indonesianFoodDatabase: FoodItem[] = [
     category: 'Lauk Pauk'
   },
   {
-    id: 'f10',
+    id: 'f20',
     name: 'Telur Dadar / Ceplok',
     portionName: '1 butir dengan minyak',
     portionMultiplier: 1,
@@ -157,7 +317,7 @@ export const indonesianFoodDatabase: FoodItem[] = [
     category: 'Lauk Pauk'
   },
   {
-    id: 'f11',
+    id: 'f21',
     name: 'Tempe Goreng / Bacem',
     portionName: '1 potong sedang (40g)',
     portionMultiplier: 1,
@@ -172,7 +332,7 @@ export const indonesianFoodDatabase: FoodItem[] = [
     category: 'Lauk Pauk'
   },
   {
-    id: 'f12',
+    id: 'f22',
     name: 'Tahu Rebus / Tahu Putih',
     portionName: '1 potong sedang (50g)',
     portionMultiplier: 1,
@@ -187,7 +347,7 @@ export const indonesianFoodDatabase: FoodItem[] = [
     category: 'Lauk Pauk'
   },
   {
-    id: 'f13',
+    id: 'f23',
     name: 'Ayam Goreng Lengkuas',
     portionName: '1 potong paha/dada',
     portionMultiplier: 1,
@@ -202,7 +362,7 @@ export const indonesianFoodDatabase: FoodItem[] = [
     category: 'Lauk Pauk'
   },
   {
-    id: 'f14',
+    id: 'f24',
     name: 'Ayam Bakar Dada Tanpa Kulit',
     portionName: '1 potong dada (100g)',
     portionMultiplier: 1,
@@ -217,7 +377,7 @@ export const indonesianFoodDatabase: FoodItem[] = [
     category: 'Lauk Pauk'
   },
   {
-    id: 'f15',
+    id: 'f25',
     name: 'Ikan Kembung / Ikan Bandeng',
     portionName: '1 ekor sedang (100g)',
     portionMultiplier: 1,
@@ -233,7 +393,38 @@ export const indonesianFoodDatabase: FoodItem[] = [
     healthNotice: 'Kaya Omega-3 (Bagus untuk kolesterol HDL)'
   },
   {
-    id: 'f16',
+    id: 'f26',
+    name: 'Ikan Bakar Nila / Gurame',
+    portionName: '1 porsi (150g)',
+    portionMultiplier: 1,
+    baseServing: '150g',
+    calories: 190,
+    carbs: 4.5,
+    protein: 26.0,
+    fat: 6.0,
+    fiber: 0.5,
+    glycemicIndex: 'Rendah',
+    purineLevel: 'Sedang',
+    category: 'Lauk Pauk',
+    healthNotice: 'Pilihan lauk sehat rendah lemak jenuh'
+  },
+  {
+    id: 'f27',
+    name: 'Pecel Lele Goreng',
+    portionName: '1 ekor lele goreng (100g)',
+    portionMultiplier: 1,
+    baseServing: '100g',
+    calories: 210,
+    carbs: 2.0,
+    protein: 18.0,
+    fat: 14.0,
+    fiber: 0,
+    glycemicIndex: 'Rendah',
+    purineLevel: 'Sedang',
+    category: 'Lauk Pauk'
+  },
+  {
+    id: 'f28',
     name: 'Rendang Daging Sapi',
     portionName: '1 potong sedang (50g)',
     portionMultiplier: 1,
@@ -249,7 +440,7 @@ export const indonesianFoodDatabase: FoodItem[] = [
     healthNotice: 'Tinggi lemak jenuh & santan (pantau kolesterol)'
   },
   {
-    id: 'f17',
+    id: 'f29',
     name: 'Gulai Jeroan / Babat / Usus',
     portionName: '1 mangkok kecil (100g)',
     portionMultiplier: 1,
@@ -265,7 +456,7 @@ export const indonesianFoodDatabase: FoodItem[] = [
     healthNotice: '⚠️ Sangat tinggi Purin (Asam Urat) & Kolesterol'
   },
   {
-    id: 'f18',
+    id: 'f30',
     name: 'Cumi / Udang Balado',
     portionName: '1 porsi sedang (100g)',
     portionMultiplier: 1,
@@ -281,9 +472,9 @@ export const indonesianFoodDatabase: FoodItem[] = [
     healthNotice: '⚠️ Cukup tinggi Kolesterol & Purin'
   },
 
-  // Sayuran
+  // ==================== Sayuran ====================
   {
-    id: 'f19',
+    id: 'f31',
     name: 'Sayur Bening Bayam & Jagung',
     portionName: '1 mangkok sedang (150g)',
     portionMultiplier: 1,
@@ -298,7 +489,7 @@ export const indonesianFoodDatabase: FoodItem[] = [
     category: 'Sayuran'
   },
   {
-    id: 'f20',
+    id: 'f32',
     name: 'Tumis Kangkung Terasi',
     portionName: '1 porsi (100g)',
     portionMultiplier: 1,
@@ -313,7 +504,7 @@ export const indonesianFoodDatabase: FoodItem[] = [
     category: 'Sayuran'
   },
   {
-    id: 'f21',
+    id: 'f33',
     name: 'Sayur Asem',
     portionName: '1 mangkok sedang (150g)',
     portionMultiplier: 1,
@@ -328,7 +519,23 @@ export const indonesianFoodDatabase: FoodItem[] = [
     category: 'Sayuran'
   },
   {
-    id: 'f22',
+    id: 'f34',
+    name: 'Capcay Kuah Sayur',
+    portionName: '1 mangkok sedang (150g)',
+    portionMultiplier: 1,
+    baseServing: '150g',
+    calories: 95,
+    carbs: 8.0,
+    protein: 5.0,
+    fat: 4.5,
+    fiber: 3.5,
+    glycemicIndex: 'Rendah',
+    purineLevel: 'Rendah',
+    category: 'Sayuran',
+    healthNotice: 'Tinggi serat, sangat baik untuk kestabilan gula darah'
+  },
+  {
+    id: 'f35',
     name: 'Gado-gado (Bumbu Kacang)',
     portionName: '1 porsi sedang (200g)',
     portionMultiplier: 1,
@@ -343,9 +550,9 @@ export const indonesianFoodDatabase: FoodItem[] = [
     category: 'Sayuran'
   },
 
-  // Buah-buahan
+  // ==================== Buah ====================
   {
-    id: 'f23',
+    id: 'f36',
     name: 'Apel Fuji',
     portionName: '1 buah sedang (150g)',
     portionMultiplier: 1,
@@ -361,7 +568,7 @@ export const indonesianFoodDatabase: FoodItem[] = [
     healthNotice: 'Kaya pektin (Membantu mengikat kolesterol jahat)'
   },
   {
-    id: 'f24',
+    id: 'f37',
     name: 'Alpukat',
     portionName: '1/2 buah sedang (100g)',
     portionMultiplier: 1,
@@ -377,7 +584,7 @@ export const indonesianFoodDatabase: FoodItem[] = [
     healthNotice: 'Lemak tak jenuh tunggal baik untuk kolesterol HDL'
   },
   {
-    id: 'f25',
+    id: 'f38',
     name: 'Pisang Ambon',
     portionName: '1 buah sedang (100g)',
     portionMultiplier: 1,
@@ -391,10 +598,26 @@ export const indonesianFoodDatabase: FoodItem[] = [
     purineLevel: 'Rendah',
     category: 'Buah'
   },
-
-  // Camilan & Minuman
   {
-    id: 'f26',
+    id: 'f39',
+    name: 'Pepaya Potong',
+    portionName: '1 piring kecil (150g)',
+    portionMultiplier: 1,
+    baseServing: '150g',
+    calories: 58,
+    carbs: 14.0,
+    protein: 0.9,
+    fat: 0.2,
+    fiber: 2.5,
+    glycemicIndex: 'Sedang',
+    purineLevel: 'Rendah',
+    category: 'Buah',
+    healthNotice: 'Kaya enzim papain & vitamin C'
+  },
+
+  // ==================== Camilan ====================
+  {
+    id: 'f40',
     name: 'Emping Melinjo',
     portionName: '1 piring kecil (30g)',
     portionMultiplier: 1,
@@ -407,10 +630,26 @@ export const indonesianFoodDatabase: FoodItem[] = [
     glycemicIndex: 'Sedang',
     purineLevel: 'Tinggi',
     category: 'Camilan',
-    healthNotice: '⚠️ Sangat tinggi Purin (Pemicu utama Asam Urat)'
+    healthNotice: '⚠️ Sangat tinggi Purin (Pemicu utama kumat Asam Urat)'
   },
   {
-    id: 'f27',
+    id: 'f41',
+    name: 'Kerupuk Putih Kaleng',
+    portionName: '1 buah (15g)',
+    portionMultiplier: 1,
+    baseServing: '15g',
+    calories: 65,
+    carbs: 9.0,
+    protein: 0.5,
+    fat: 3.2,
+    fiber: 0.1,
+    glycemicIndex: 'Tinggi',
+    purineLevel: 'Rendah',
+    category: 'Camilan',
+    healthNotice: 'Tepung tapioka olahan & minyak goreng'
+  },
+  {
+    id: 'f42',
     name: 'Gorengan Bakwan / Pisang Goreng',
     portionName: '1 buah sedang (50g)',
     portionMultiplier: 1,
@@ -425,8 +664,10 @@ export const indonesianFoodDatabase: FoodItem[] = [
     category: 'Camilan',
     healthNotice: '⚠️ Minyak gorengan berulang memicu Kolesterol LDL'
   },
+
+  // ==================== Minuman ====================
   {
-    id: 'f28',
+    id: 'f43',
     name: 'Air Putih',
     portionName: '1 gelas (250 ml)',
     portionMultiplier: 1,
@@ -442,7 +683,7 @@ export const indonesianFoodDatabase: FoodItem[] = [
     healthNotice: 'Membantu ginjal membuang kelebihan kristal asam urat'
   },
   {
-    id: 'f29',
+    id: 'f44',
     name: 'Teh Manis Hangat / Es Teh Manis',
     portionName: '1 gelas dengan gula (250 ml)',
     portionMultiplier: 1,
@@ -454,10 +695,11 @@ export const indonesianFoodDatabase: FoodItem[] = [
     fiber: 0,
     glycemicIndex: 'Tinggi',
     purineLevel: 'Rendah',
-    category: 'Minuman'
+    category: 'Minuman',
+    healthNotice: 'Gula cair cepat diserap darah (lonjakan glukosa)'
   },
   {
-    id: 'f30',
+    id: 'f45',
     name: 'Kopi Hitam / Teh Hijau Tanpa Gula',
     portionName: '1 cangkir (200 ml)',
     portionMultiplier: 1,
@@ -471,5 +713,21 @@ export const indonesianFoodDatabase: FoodItem[] = [
     purineLevel: 'Rendah',
     category: 'Minuman',
     healthNotice: 'Kaya polifenol antioksidan'
+  },
+  {
+    id: 'f46',
+    name: 'Jus Alpukat (Murni Tanpa Gula/Susu)',
+    portionName: '1 gelas (250 ml)',
+    portionMultiplier: 1,
+    baseServing: '250 ml',
+    calories: 185,
+    carbs: 9.5,
+    protein: 2.2,
+    fat: 16.5,
+    fiber: 7.2,
+    glycemicIndex: 'Rendah',
+    purineLevel: 'Rendah',
+    category: 'Minuman',
+    healthNotice: 'Lemak sehat pelindung jantung'
   }
 ]
