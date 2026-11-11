@@ -39,6 +39,31 @@
           @open-modal="showGlucoseModal = true"
         />
 
+        <!-- Rekomendasi Perlengkapan Medis Terverifikasi (Shopee Affiliate) -->
+        <div class="bg-gradient-to-r from-sky-50 via-indigo-50/50 to-blue-50 border border-sky-200/90 p-4 rounded-3xl flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 shadow-2xs">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-2xl bg-sky-600 text-white flex items-center justify-center shrink-0 shadow-sm shadow-sky-600/20">
+              <ShoppingBag class="w-5 h-5" />
+            </div>
+            <div>
+              <h4 class="text-xs sm:text-sm font-bold text-slate-800 flex items-center gap-1.5">
+                <span>Belum Punya Alat Tensi di Rumah?</span>
+                <span class="text-[9px] font-bold px-1.5 py-0.2 rounded-full bg-sky-200 text-sky-900">Resmi Kemenkes</span>
+              </h4>
+              <p class="text-[11px] text-slate-600 mt-0.5">
+                Rekomendasi tensimeter digital Omron & alat cek gula darah akurat berstandar klinis.
+              </p>
+            </div>
+          </div>
+          <button 
+            @click="activeTab = 'shop'"
+            class="w-full sm:w-auto px-3.5 py-2 rounded-xl bg-sky-600 hover:bg-sky-700 text-white text-xs font-bold transition flex items-center justify-center gap-1.5 shadow-xs shrink-0 active:scale-95"
+          >
+            <span>Lihat Pilihan Alat</span>
+            <ArrowRight class="w-3.5 h-3.5" />
+          </button>
+        </div>
+
         <!-- WhatsApp Caregiver & Family Share Card -->
         <div class="bg-gradient-to-r from-emerald-50 via-teal-50/60 to-emerald-50 border border-emerald-200/90 p-4 sm:p-5 rounded-3xl flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 shadow-xs">
           <div class="flex items-center gap-3">
@@ -704,6 +729,11 @@
         </div>
       </section>
 
+      <!-- ==================== TAB 6: PERLENGKAPAN & REKOMENDASI (SHOPEE AFFILIATE) ==================== -->
+      <section v-else-if="activeTab === 'shop'" class="space-y-6 animate-fade-in">
+        <HealthShopSection />
+      </section>
+
     </main>
 
     <!-- Footer with Reset & Sample Controls -->
@@ -776,7 +806,9 @@ import {
   CheckCircle2, 
   Lightbulb,
   Share2,
-  Send
+  Send,
+  ShoppingBag,
+  ArrowRight
 } from 'lucide-vue-next'
 import { useGlukosaState } from './composables/useGlukosaState'
 import type { GlucoseMeasurementType, MealTimeType, ActivityType } from './types'
